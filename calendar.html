@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.1.0/milligram.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="materialize.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" href="stylesCal.css" type="text/css">
+  </head>
+<body>
+
+  <header class='header'>
+
+    <nav>
+      <a href="home.html" class="align-left">Home</a>
+      <a href="recipes.html">Find Recipes</a>
+      <a href="" class='current'>Weekly Meal Plan(You are here)</a>
+    </nav>
+    <h2 id='calTitle'>Weekly Food Fixin'</h2>
+  </header>
+
+<main>
+    <table class="centered" id='tableWeek'>
+      <tr class='tableTitles'>
+        <th></th>
+        <th scope='col'>Sunday</th>
+        <th scope='col'>Monday</th>
+        <th scope='col'>Tuesday</th>
+        <th scope='col'>Wednesday</th>
+        <th scope='col'>Thursday</th>
+        <th scope='col'>Friday</th>
+        <th scope='col'>Saturday</th>
+      </tr>
+      <tr class='breakfast'>
+        <th scope='row'class='tableTitles'>Breakfast</th>
+        <td id=bSun>No Meal Assigned</td>
+        <td id=bMon>No Meal Assigned</td>
+        <td id=bTue>No Meal Assigned</td>
+        <td id=bWed>No Meal Assigned</td>
+        <td id=bThu>No Meal Assigned</td>
+        <td id=bFri>No Meal Assigned</td>
+        <td id=bSat>No Meal Assigned</td>
+      </tr>
+      <tr class=lunch>
+        <th scope='row' class='tableTitles'>Lunch</th>
+        <td id=lSun>No Meal Assigned</td>
+        <td id=lMon>No Meal Assigned</td>
+        <td id=lTue>No Meal Assigned</td>
+        <td id=lWed>No Meal Assigned</td>
+        <td id=lThu>No Meal Assigned</td>
+        <td id=lFri>No Meal Assigned</td>
+        <td id=lSat>No Meal Assigned</td>
+      </tr>
+      <tr class=dinner>
+        <th scope='row' class='tableTitles'>Dinner</th>
+        <td id=dSun>No Meal Assigned</td>
+        <td id=dMon>No Meal Assigned</td>
+        <td id=dTue>No Meal Assigned</td>
+        <td id=dWed>No Meal Assigned</td>
+        <td id=dThu>No Meal Assigned</td>
+        <td id=dFri>No Meal Assigned</td>
+        <td id=dSat>No Meal Assigned</td>
+      </tr>
+    </table>
+
+  </main>
+
+  <footer class='footer-copywrite'>
+    <p>&copy; Copyright <em>Weston's Brain</em> 2017</p>
+  </footer>
+
+  <script src="jquery-3.2.1.js"></script>
+  <script src="app.js" charset='utf-8'></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="materialize.min.js"></script>
+</body>
+</html>

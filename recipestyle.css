@@ -1,0 +1,18 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+#content {
+  overflow: auto;}
+  #bottom {background-color: #d3dfff}
+#nav, #recTitle, #footer {
+  margin: 1%;}
+  .column1 {
+    width: 30%;
+    float: left;
+    margin: 1%;}
+  .column2 {margin-right: 0%;}
+
+  .column1 .column2 {
+    border-width: thick;
+  }
